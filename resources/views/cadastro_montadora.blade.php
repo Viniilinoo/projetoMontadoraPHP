@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Criar Montadora </title>
-    <link rel="stylesheet" href="/css/style3.css">
+    <link rel="stylesheet" href="/css/style8.css">
 </head>
 <body>
-        <p class="p">Cadastro de Montadora</p>
-
-    <form id="prodform" action="/criar_montadora" method="post">
+<div class="header">
+  <header>
+    <a href="/cadastro_montadora">Cadastro Montadora</a>
+    <a href="/">Página Inicial</a>
+  </header>
+</div>  
+    
+    <div class="form">
+        <h1 class="p">Cadastro de Montadora</h1>
+    <form id="montform" action="/criar_montadora" method="post">
         @csrf
         <label for="nome">Nome</label>
         <input type="text" name="nome">
@@ -29,5 +36,6 @@
 
         <input id="btn" type="submit" value="Salvar">
     </form>
+    </div>
 </body>
 </html>

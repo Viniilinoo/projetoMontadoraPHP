@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('montadora', function (Blueprint $table) {
+        Schema::create('montadoras', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
             $table->string('nomeDoCarro');

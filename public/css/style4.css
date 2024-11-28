@@ -1,18 +1,14 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(228, 209, 173);
+    background-color: #383838;
 }
 
 #btn{
     width: 100%;
-    padding: 10px;
-    background-color: rgb(172, 154, 107);
+    padding: 15px;
+    background-color: rgb(97, 97, 97);
     color: white;
     text-shadow: black;
     border: none;
@@ -21,7 +17,33 @@ body {
     font-size: 16px;
 }
 
-#userform {
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #474747;
+    padding: 50px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.header a {
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#carform {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
@@ -29,21 +51,28 @@ body {
     width: 300px;
 }
 
-#userform label {
+#carform label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-#userform input {
+#carform input {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    transition: 0.5s;
 }
 
-#userform button:hover {
+#carform input:focus {
+    outline: none;
+    border-color: #383838;
+    box-shadow: 0 0 5px #383838;
+}
+
+#carform button:hover {
     background-color: #005007;
 }
 

@@ -1,23 +1,23 @@
 <?php
 
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\CarController;
 use App\Http\Controllers\MontadoraController;
 use App\Http\Controllers\AppController;
 use Illuminate\Support\Facades\Route;
 
 
 //user
-Route::get('/cadastro_usuario ', [UserController::class, 'formCriarUsuario']);
+Route::get('/cadastro_carro', [CarController::class, 'formCriarCarro']);
 
-Route::get('/listar_usuarios', [UserController::class, 'listar']);
+Route::get('/listar_carros', [CarController::class, 'listar']);
 
-Route::post('/criar_usuario', [UserController::class, 'criar']);
+Route::post('/criar_carro', [CarController::class, 'criar']);
 
-Route::delete('/deletar_usuario/{id}', [UserController::class, 'deletar']);
+Route::delete('/deletar_carro/{id}', [CarController::class, 'deletar']);
 
-Route::get('/editar_usuario/{id}', [UserController::class, 'formEditarUsuario']);
+Route::get('/editar_carro/{id}', [CarController::class, 'formEditarCarro']);
 
-Route::patch('/editar_usuario/{id}', [UserController::class, 'editar']);
+Route::patch('/editar_carro/{id}', [CarController::class, 'editar']);
 
 
 

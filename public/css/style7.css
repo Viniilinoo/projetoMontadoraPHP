@@ -43,7 +43,7 @@ h1 {
     align-items: center;
 }
 
-#carform {
+#montform {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
@@ -51,13 +51,13 @@ h1 {
     width: 300px;
 }
 
-#carform label {
+#montform label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-#carform input {
+#montform input {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
@@ -66,13 +66,13 @@ h1 {
     transition: 0.5s;
 }
 
-#carform input:focus {
+#montform input:focus {
     outline: none;
     border-color: #383838;
     box-shadow: 0 0 5px #383838;
 }
 
-#carform button:hover {
+#montform button:hover {
     background-color: #005007;
 }
 
