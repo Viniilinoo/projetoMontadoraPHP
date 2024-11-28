@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # O que é um framework ?
 
@@ -86,3 +87,6 @@ Caso queira criar uma nova origin
 
 git remote add new_origin_name [repo-url]
 
+=======
+# projetoMontadoraPHP
+>>>>>>> cd8244f9cb06ecdca4579f950d6aa41abe5b1e04
